@@ -16,14 +16,11 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"风灵创建的第一个个人博客",
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
+		"风灵",
 		"博客",
 		"技术博客",
 		"静态博客",
@@ -45,9 +42,9 @@ export const siteConfig: SiteConfig = {
 	// 网站Card样式配置
 	card: {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
-		border: false,
+		border: true,
 		// 是否让卡片风格跟随主题色相
-		followTheme: false,
+		followTheme: true,
 	},
 
 	// Favicon 配置
@@ -55,7 +52,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 			// 图标文件路径
-			src: "/favicon/firefly-32.png",
+			src: "/favicon/1111.jpg",
 			// 可选，指定主题 'light' | 'dark'
 			// theme: "light",
 			// 可选，图标大小
@@ -81,7 +78,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly",
+		title: "风灵",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -93,7 +90,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01",
+	siteStartDate: "2026-08-02",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
@@ -126,7 +123,7 @@ export const siteConfig: SiteConfig = {
 	// 文章列表布局配置
 	postListLayout: {
 		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（多列布局）
-		defaultMode: "list",
+		defaultMode: "grid",
 		// 移动端默认布局模式，不设置则跟随 defaultMode
 		mobileDefaultMode: "grid",
 		// 文章简介显示行数，设为 0 则不截断
@@ -165,7 +162,7 @@ export const siteConfig: SiteConfig = {
 		// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
 		grid: {
 			// 是否开启瀑布流布局，同时有封面图和无封面图的混合文章推荐开启
-			masonry: false,
+			masonry: true,
 			// 网格模式卡片最小宽度(px)，浏览器根据容器宽度自动计算列数
 			columnWidth: 320,
 		},
