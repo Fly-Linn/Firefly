@@ -1,6 +1,6 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+你好！我是**风灵**，目前就读于石河子大学。后续没了，等以后想到再补充......
 
 ## 🛠️ 关于本站
 
@@ -11,15 +11,19 @@
 
 **🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
 
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
+**🏠开发者博客： [夏叶](https://blog.cuteleaf.cn)**
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+**📝Firefly使用文档： [Fireflywiki](https://docs-firefly.cuteleaf.cn/)**
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+**⭐Firefly开源地址：[Firefly](https://github.com/CuteLeaf/Firefly)** 
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+**⭐Fuwari开源地址：[fuwari](https://github.com/saicaca/fuwari)**
+
+**Firefly仓库卡片**
 
 ::github{repo="CuteLeaf/Firefly"}
+
+**Fuwari仓库卡片**
 
 ::github{repo="saicaca/fuwari"}
 
